@@ -1,0 +1,52 @@
+# SenseGuard
+
+**Versão 5.0**: versão funcional com 1 ESP32, responsável por acionar cada LED de acordo com cada PIR, além de permitir monitoramento por Bluetooth BLE via aplicativo LightBlue.
+
+## Descrição do projeto
+
+O **SenseGuard** é um sistema pensado para monitorar idosos durante a noite — momento do dia em que ocorre uma parcela significativa dos acidentes dentro de casa — de forma **não invasiva**. Em vez de usar câmeras ou dispositivos corporais, ele conta com sensores de movimento (PIR), LEDs e conectividade Bluetooth BLE para alertar cuidadores, familiares ou os próprios idosos sobre atividade ou possíveis incidentes.
+
+A ideia é preservar a **autonomia** e a **privacidade** das pessoas idosas, oferecendo um cuidado discreto e eficiente, sem invasão visual ou obrigatoriedade de usar equipamentos no corpo.
+
+---
+
+## Motivação e impacto estimado
+
+- Quedas são uma das principais causas de lesões graves em idosos. Segundo estudos, entre **30% e 50%** das quedas resultam em alguma lesão, e aproximadamente **10% levam a traumas maiores**, como fraturas ou ferimentos na cabeça. :contentReference[oaicite:0]{index=0}  
+- No Brasil, a prevalência de quedas entre idosos em áreas urbanas é de cerca de **25%**. :contentReference[oaicite:1]{index=1}  
+- Um estudo brasileiro recente apontou que **62,7%** dos idosos entrevistados já haviam sofrido ao menos uma queda, o que reforça a necessidade de soluções preventivas. :contentReference[oaicite:2]{index=2}  
+- As quedas também têm impacto econômico elevado: internações, fraturas de quadril e outras consequências representam custos importantes para sistemas de saúde. :contentReference[oaicite:3]{index=3}  
+- Além disso, muitas quedas ocorrem dentro de casa. De fato, em estudos com idosos pós-alta hospitalar, mais de **60% das quedas com lesão acontecem em ambientes internos**. :contentReference[oaicite:4]{index=4}  
+
+**Estimativa de redução de acidentes**: embora seja difícil prever com precisão, a instalação de um sistema como o SenseGuard pode potencialmente reduzir quedas severas em um percentual relevante. Se mantivermos uma simples métrica de detecção precoce e alerta, mesmo uma redução modesta (por exemplo, **10‑20%**) nas quedas noturnas poderia significar menos fraturas, menos hospitalizações e um impacto positivo tanto na qualidade de vida dos idosos quanto nos custos de saúde para cuidadores e instituições.
+
+---
+
+## Diferenciais do SenseGuard
+
+- **Não invasivo**: sem câmeras, sem sensores no corpo — apenas movimento detectado por PIR.
+- **Autonomia preservada**: os idosos mantêm privacidade e independência.
+- **Sinalização simples**: LEDs ligados conforme movimento, para indicar atividade.
+- **Monitoramento via BLE**: alertas em tempo real para cuidadores ou familiares por smartphone (ex: LightBlue ou outro app BLE).
+- **Baixo custo e fácil implementação**: baseado em ESP32, sensores PIR comuns e LEDs.
+
+---
+
+## Contribuição e uso
+
+O SenseGuard pode ser usado por:
+
+- Famílias que cuidam de idosos em casa e querem aumentar a segurança noturna.
+- Instituições de longa permanência que buscam uma solução simples de monitoramento de movimento.
+- Pesquisadores e desenvolvedores interessados em sistemas de saúde digital, IoT assistivo e cuidados com idosos.
+
+Também é possível expandir o projeto para incluir:
+
+- Registro de histórico de movimento (logs de quando houve atividade).
+- Notificações mais sofisticadas (via app dedicado, não somente BLE).
+- Integração com sistemas de alarme ou assistentes virtuais.
+
+---
+
+Se quiser, posso te ajudar a montar também os **badges para o README** no GitHub (por exemplo, status de build, cobertura de testes, etc) para deixar o repositório mais profissional. Quer que eu faça isso?
+::contentReference[oaicite:5]{index=5}
