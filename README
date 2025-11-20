@@ -2,11 +2,15 @@
 
 **Versão 5.0:** versão funcional com 1 ESP32, responsável por acionar cada LED de acordo com cada PIR, além de permitir monitoramento por Bluetooth BLE via aplicativo LightBlue.
 
+---
+
 ## Descrição do projeto
 
 O **SenseGuard** é um sistema pensado para monitorar idosos durante a noite — momento do dia em que ocorre a maior parte dos acidentes domésticos — de forma **não invasiva**. Em vez de usar câmeras ou dispositivos corporais, ele conta com sensores de movimento (PIR), LEDs e conectividade Bluetooth BLE para alertar cuidadores, familiares ou os próprios idosos sobre atividade ou possíveis incidentes.
 
 A ideia é preservar a **autonomia** e a **privacidade** das pessoas idosas, oferecendo um cuidado discreto e eficiente, sem invasão visual ou obrigatoriedade de usar equipamentos no corpo.
+
+---
 
 ## Motivação e impacto estimado
 
@@ -17,24 +21,33 @@ A ideia é preservar a **autonomia** e a **privacidade** das pessoas idosas, ofe
 
 **Estimativa de redução de acidentes:** a instalação de um sistema como o SenseGuard pode reduzir quedas noturnas em um percentual relevante. Mesmo uma redução modesta de **10-20%** poderia significar menos fraturas, hospitalizações e um impacto positivo na qualidade de vida dos idosos.
 
+---
+
 ## Diferenciais do SenseGuard
 
-- **Não invasivo:** sem câmeras ou sensores no corpo.
-- **Autonomia preservada:** idosos mantêm independência e privacidade.
-- **Sinalização simples:** LEDs ligados conforme movimento detectado.
-- **Monitoramento via BLE:** alertas em tempo real pelo smartphone (ex: LightBlue).
+- **Não invasivo:** sem câmeras ou sensores no corpo.  
+- **Autonomia preservada:** idosos mantêm independência e privacidade.  
+- **Sinalização simples:** LEDs ligados conforme movimento detectado.  
+- **Monitoramento via BLE:** alertas em tempo real pelo smartphone (ex: LightBlue).  
 - **Baixo custo e fácil implementação:** baseado em ESP32, sensores PIR e LEDs comuns.
+
+---
 
 ## Contribuição e uso
 
 O SenseGuard pode ser usado por:
 
-- Famílias que cuidam de idosos em casa e querem aumentar a segurança noturna.
-- Instituições de longa permanência que buscam uma solução simples de monitoramento.
+- Famílias que cuidam de idosos em casa e querem aumentar a segurança noturna.  
+- Instituições de longa permanência que buscam uma solução simples de monitoramento.  
 - Pesquisadores e desenvolvedores interessados em sistemas de saúde digital, IoT assistivo e cuidados com idosos.
 
 Possíveis expansões do projeto:
 
-- Registro de histórico de movimento (logs de atividade).
-- Notificações mais sofisticadas (via app dedicado).
+- Registro de histórico de movimento (logs de atividade).  
+- Notificações mais sofisticadas (via app dedicado).  
 - Integração com sistemas de alarme ou assistentes virtuais.
+
+---
+
+**Entre em contato:**  
+Se você quiser contribuir ou testar o projeto, pode abrir issues ou pull requests no GitHub.
