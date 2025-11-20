@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=B6B0A6&height=280&section=header&text=SenseGuard&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=1F2A36&desc=Seu%20caminho,%20nossa%20proteção&descAlignY=55&descSize=25&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7FE0F2,100:F4C2C9&height=280&section=header&text=SenseGuard&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=1F2A36&desc=Seu%20caminho,%20nossa%20proteção&descAlignY=55&descSize=25&descAlign=50"/>
 </div>
 
 <div align="center">
-  <img src="/mnt/data/d418b786-a84b-4cf1-8e7c-1b6cc110025c.png" alt="SenseGuard Logo" width="180"/>
+  <img src="./progCircuito/SenseGuardLogo.png" alt="SenseGuard Logo" width="200"/>
   
   <br><br>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=22&duration=2000&pause=1000&color=1F2A36&center=true&vCenter=true&width=600&lines=Monitoramento+Noturno+de+Idosos;Tecnologia+IoT+Assistiva;Segurança+Não+Invasiva;Cuidado+e+Autonomia" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=22&duration=2000&pause=1000&color=7FE0F2&background=00000000&center=true&vCenter=true&width=600&lines=Monitoramento+Noturno+de+Idosos;Tecnologia+IoT+Assistiva;Segurança+Não+Invasiva;Cuidado+e+Autonomia" alt="Typing SVG" />
 
   <br>
 
@@ -55,7 +55,7 @@ Quedas não são apenas acidentes; são um problema de saúde pública para a te
 
 ## 🛠️ Stack Tecnológico
 
-O projeto foi construído utilizando componentes acessíveis e robustos:
+O projeto foi construído utilizando componentes acessíveis e robustos (códigos disponíveis na pasta `progCircuito`):
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=arduino,cpp,git,github&theme=light" height="50"/>
@@ -69,11 +69,10 @@ O projeto foi construído utilizando componentes acessíveis e robustos:
 
 ## ⚙️ Como Usar
 
-1.  **Hardware:** Conecte os sensores PIR e os módulos de LED ao ESP32 conforme o esquemático (disponível na pasta `/docs`).
-2.  **Firmware:** Faça o upload do código deste repositório para o ESP32 usando a Arduino IDE ou PlatformIO.
-3.  **App:** Utilize um aplicativo de Debug BLE (como *nRF Connect* ou *LightBlue*) ou o aplicativo proprietário do SenseGuard.
+1.  **Hardware:** Conecte os sensores PIR e os módulos de LED ao ESP32 conforme o esquemático.
+2.  **Firmware:** Acesse a pasta `progCircuito` e faça o upload do código para o ESP32.
+3.  **App:** Utilize um aplicativo de Debug BLE (como *nRF Connect* ou *LightBlue*) no seu celular.
 4.  **Pareamento:** Conecte-se ao dispositivo **"SenseGuard_BLE"**.
-5.  **Pronto:** O sistema calibrará os sensores e iniciará o monitoramento.
 
 ---
 
