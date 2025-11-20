@@ -1,9 +1,13 @@
 <h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=363636&text=SenseGuard&fontAlign=50&animation=fadeIn&fontColor=C70000FF">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=BEB7AF&text=SenseGuard&fontAlign=50&animation=fadeIn&fontColor=1C1C1C">
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=5000&color=C70000&center=true&vCenter=true&width=500&lines=Monitoramento+de+Idosos+Noturno+%7C+IoT+Assistivo">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=5000&color=1C1C1C&center=true&vCenter=true&width=500&lines=Monitoramento+de+Idosos+Noturno+%7C+IoT+Assistivo">
+</p>
+
+<p align="center">
+  <img src="/mnt/data/d418b786-a84b-4cf1-8e7c-1b6cc110025c.png" alt="SenseGuard Logo" width="200"/>
 </p>
 
 ---
@@ -42,20 +46,20 @@ A solução preserva a **autonomia** e a **privacidade** dos idosos, oferecendo 
 
 ---
 
+## 🛠️ Tecnologias utilizadas
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,cpp,ble,esp32,github" height="40"/>
+</p>
+
+---
+
 ## ⚙️ Como usar
 
 1. Conecte os sensores PIR e LEDs ao ESP32 seguindo o esquema do projeto.  
 2. Faça upload do firmware do SenseGuard para o ESP32.  
 3. Abra um app BLE (ex: LightBlue) no smartphone e conecte ao dispositivo.  
 4. Monitore os movimentos em tempo real via notificações BLE.
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino,cpp,ble,esp32,github">
-</p>
 
 ---
 
