@@ -1,81 +1,100 @@
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=BEB7AF&text=SenseGuard&fontAlign=50&animation=fadeIn&fontColor=1C1C1C">
-</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=B6B0A6&height=280&section=header&text=SenseGuard&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=1F2A36&desc=Seu%20caminho,%20nossa%20proteção&descAlignY=55&descSize=25&descAlign=50"/>
+</div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=5000&color=1C1C1C&center=true&vCenter=true&width=500&lines=Monitoramento+de+Idosos+Noturno+%7C+IoT+Assistivo">
-</p>
+<div align="center">
+  <img src="/mnt/data/d418b786-a84b-4cf1-8e7c-1b6cc110025c.png" alt="SenseGuard Logo" width="180"/>
+  
+  <br><br>
 
-<p align="center">
-  <img src="/mnt/data/d418b786-a84b-4cf1-8e7c-1b6cc110025c.png" alt="SenseGuard Logo" width="200"/>
-</p>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=22&duration=2000&pause=1000&color=1F2A36&center=true&vCenter=true&width=600&lines=Monitoramento+Noturno+de+Idosos;Tecnologia+IoT+Assistiva;Segurança+Não+Invasiva;Cuidado+e+Autonomia" alt="Typing SVG" />
 
----
+  <br>
 
-## 📝 Sobre o projeto
-
-O **SenseGuard** é um sistema IoT projetado para **monitorar idosos durante a noite**, momento em que ocorrem a maior parte dos acidentes domésticos, de forma **não invasiva**.  
-Em vez de câmeras ou sensores no corpo, utiliza **sensores de movimento (PIR)**, **LEDs indicadores** e **conectividade Bluetooth BLE**, permitindo que cuidadores e familiares recebam alertas em tempo real.
-
-A solução preserva a **autonomia** e a **privacidade** dos idosos, oferecendo cuidado discreto e eficiente.
+  <img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-7FE0F2?style=for-the-badge&labelColor=1F2A36&logo=github" alt="Status"/>
+  <img src="https://img.shields.io/badge/Licença-Open_Source-F4C2C9?style=for-the-badge&labelColor=1F2A36" alt="License"/>
+</div>
 
 ---
 
-## 🎯 Motivação e impacto
+## 📝 Sobre o Projeto
 
-- Quedas são uma das principais causas de lesões graves em idosos. Entre **30% e 50%** das quedas resultam em alguma lesão, e **10% podem causar traumas graves**, como fraturas ou ferimentos na cabeça.  
-  [Fonte](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7093636/)
-- No Brasil, **25% dos idosos urbanos sofrem quedas**.  
-  [Fonte](https://www.gov.br/saude/pt-br)
-- **62,7% dos idosos** já sofreram pelo menos uma queda.  
-  [Fonte](https://saude.abril.com.br/medicina/estudo-brasileiro-faz-alerta-sobre-os-perigos-de-quedas-em-idosos/)
-- Mais de **60% das quedas com lesão acontecem dentro de casa**, reforçando a importância do monitoramento noturno.  
-  [Fonte](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699056/)
+> **Cuidado invisível, proteção real.**
 
-**Estimativa de redução de acidentes:** a instalação do SenseGuard pode reduzir quedas noturnas em **10-20%**, diminuindo fraturas, hospitalizações e melhorando a qualidade de vida dos idosos.
+O **SenseGuard** é uma solução IoT desenvolvida para **monitorar idosos durante o período noturno** de forma totalmente **não invasiva**. Diferente de câmeras que violam a privacidade ou wearables que incomodam durante o sono, o SenseGuard cuida de quem você ama discretamente.
+
+O sistema utiliza sensores estratégicos para identificar padrões de movimento e iluminar o caminho automaticamente, enviando alertas via **Bluetooth Low Energy (BLE)** para cuidadores apenas quando necessário.
 
 ---
 
-## 💡 Diferenciais
+## 🎯 Motivação & Impacto
 
-- **Não invasivo**: sem câmeras ou sensores no corpo.  
-- **Autonomia preservada**: idosos mantêm independência e privacidade.  
-- **Sinalização simples**: LEDs ligados conforme movimento.  
-- **Monitoramento via BLE**: alertas em tempo real no smartphone (ex: LightBlue).  
-- **Baixo custo e fácil implementação**: baseado em ESP32, sensores PIR e LEDs comuns.
+Quedas não são apenas acidentes; são um problema de saúde pública para a terceira idade.
 
----
+| Estatística | Impacto |
+| :--- | :--- |
+| **30% a 50%** | Das quedas resultam em lesões (Fonte: [NCBI](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7093636/)) |
+| **60%** | Das quedas com lesão ocorrem **dentro de casa** |
+| **Noturno** | Período crítico onde a visibilidade é baixa e a confusão mental é maior |
 
-## 🛠️ Tecnologias utilizadas
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino,cpp,ble,esp32,github" height="40"/>
-</p>
+📉 **Nossa Meta:** Reduzir em até **20%** a incidência de acidentes noturnos através de iluminação preventiva e monitoramento passivo.
 
 ---
 
-## ⚙️ Como usar
+## 💎 Diferenciais
 
-1. Conecte os sensores PIR e LEDs ao ESP32 seguindo o esquema do projeto.  
-2. Faça upload do firmware do SenseGuard para o ESP32.  
-3. Abra um app BLE (ex: LightBlue) no smartphone e conecte ao dispositivo.  
-4. Monitore os movimentos em tempo real via notificações BLE.
+<div align="center">
+
+| 🚫 Não Invasivo | 🔋 Baixo Consumo | 💡 Automação | 📱 Conectividade |
+| :---: | :---: | :---: | :---: |
+| Sem câmeras ou pulseiras | Tecnologia BLE eficiente | LEDs guiam o caminho | Alertas no Smartphone |
+
+</div>
+
+---
+
+## 🛠️ Stack Tecnológico
+
+O projeto foi construído utilizando componentes acessíveis e robustos:
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,cpp,git,github&theme=light" height="50"/>
+  <br><br>
+  <img src="https://img.shields.io/badge/Microcontrolador-ESP32-1F2A36?style=flat-square&logo=espressif&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Sensor-PIR_HC--SR501-7FE0F2?style=flat-square&labelColor=1F2A36"/>
+  <img src="https://img.shields.io/badge/Conectividade-Bluetooth_BLE-F4C2C9?style=flat-square&labelColor=1F2A36&logo=bluetooth"/>
+</div>
+
+---
+
+## ⚙️ Como Usar
+
+1.  **Hardware:** Conecte os sensores PIR e os módulos de LED ao ESP32 conforme o esquemático (disponível na pasta `/docs`).
+2.  **Firmware:** Faça o upload do código deste repositório para o ESP32 usando a Arduino IDE ou PlatformIO.
+3.  **App:** Utilize um aplicativo de Debug BLE (como *nRF Connect* ou *LightBlue*) ou o aplicativo proprietário do SenseGuard.
+4.  **Pareamento:** Conecte-se ao dispositivo **"SenseGuard_BLE"**.
+5.  **Pronto:** O sistema calibrará os sensores e iniciará o monitoramento.
 
 ---
 
 ## 🤝 Contribuição
 
-O SenseGuard é **open-source**. Contribuições são bem-vindas: sugestões, melhorias de código, documentação ou novos recursos.  
-Abra issues ou pull requests diretamente no repositório.
+O SenseGuard é um projeto **Open Source**. Acreditamos que a tecnologia deve servir para proteger nossos entes queridos.
+
+* 🐛 Achou um bug? Abra uma **Issue**.
+* 💡 Tem uma ideia? Envie um **Pull Request**.
 
 ---
 
-<p align="center">
-  <a href="https://github.com/seu-usuario/SenseGuard"><img src="https://custom-icon-badges.demolab.com/badge/GitHub-000000?logo=github&logoColor=white"></a>
-</p>
-
-<h4 align="center">
-  Obrigado por visitar! Esperamos que este projeto ajude a tornar o monitoramento de idosos mais seguro e discreto.
-</h4>
-
-![](https://komarev.com/ghpvc/?username=seu-usuario&color=4B0082)
+<div align="center">
+  
+  ### Desenvolvido com 💙 e Cuidado.
+  
+  <a href="https://github.com/seu-usuario/SenseGuard">
+    <img src="https://img.shields.io/badge/GitHub-SenseGuard-1F2A36?style=social&logo=github"/>
+  </a>
+  
+  <br>
+  
+  ![Metrics](https://komarev.com/ghpvc/?username=seu-usuario&color=7FE0F2&style=flat-square&label=Visualizações)
+</div>
