@@ -1,53 +1,77 @@
-# SenseGuard
+<h1 align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=363636&text=SenseGuard&fontAlign=50&animation=fadeIn&fontColor=C70000FF">
+</h1>
 
-**Versão 5.0:** versão funcional com 1 ESP32, responsável por acionar cada LED de acordo com cada PIR, além de permitir monitoramento por Bluetooth BLE via aplicativo LightBlue.
-
----
-
-## Descrição do projeto
-
-O **SenseGuard** é um sistema pensado para monitorar idosos durante a noite — momento do dia em que ocorre a maior parte dos acidentes domésticos — de forma **não invasiva**. Em vez de usar câmeras ou dispositivos corporais, ele conta com sensores de movimento (PIR), LEDs e conectividade Bluetooth BLE para alertar cuidadores, familiares ou os próprios idosos sobre atividade ou possíveis incidentes.
-
-A ideia é preservar a **autonomia** e a **privacidade** das pessoas idosas, oferecendo um cuidado discreto e eficiente, sem invasão visual ou obrigatoriedade de usar equipamentos no corpo.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&duration=1500&pause=5000&color=C70000&center=true&vCenter=true&width=500&lines=Monitoramento+de+Idosos+Noturno+%7C+IoT+Assistivo">
+</p>
 
 ---
 
-## Motivação e impacto estimado
+## 📝 Sobre o projeto
 
-- Quedas são uma das principais causas de lesões graves em idosos. Entre **30% e 50%** das quedas resultam em alguma lesão, e aproximadamente **10% levam a traumas maiores**, como fraturas ou ferimentos na cabeça. ([Fonte](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7093636/))
-- No Brasil, a prevalência de quedas entre idosos em áreas urbanas é de cerca de **25%**. ([Fonte](https://www.gov.br/saude/pt-br))
-- Um estudo brasileiro recente apontou que **62,7%** dos idosos entrevistados já haviam sofrido ao menos uma queda. ([Fonte](https://saude.abril.com.br/medicina/estudo-brasileiro-faz-alerta-sobre-os-perigos-de-quedas-em-idosos/))
-- Mais de **60% das quedas com lesão acontecem dentro de casa**, tornando essencial o monitoramento noturno. ([Fonte](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699056/))
+O **SenseGuard** é um sistema IoT projetado para **monitorar idosos durante a noite**, momento em que ocorrem a maior parte dos acidentes domésticos, de forma **não invasiva**.  
+Em vez de câmeras ou sensores no corpo, utiliza **sensores de movimento (PIR)**, **LEDs indicadores** e **conectividade Bluetooth BLE**, permitindo que cuidadores e familiares recebam alertas em tempo real.
 
-**Estimativa de redução de acidentes:** a instalação de um sistema como o SenseGuard pode reduzir quedas noturnas em um percentual relevante. Mesmo uma redução modesta de **10-20%** poderia significar menos fraturas, hospitalizações e um impacto positivo na qualidade de vida dos idosos.
+A solução preserva a **autonomia** e a **privacidade** dos idosos, oferecendo cuidado discreto e eficiente.
 
 ---
 
-## Diferenciais do SenseGuard
+## 🎯 Motivação e impacto
 
-- **Não invasivo:** sem câmeras ou sensores no corpo.  
-- **Autonomia preservada:** idosos mantêm independência e privacidade.  
-- **Sinalização simples:** LEDs ligados conforme movimento detectado.  
-- **Monitoramento via BLE:** alertas em tempo real pelo smartphone (ex: LightBlue).  
-- **Baixo custo e fácil implementação:** baseado em ESP32, sensores PIR e LEDs comuns.
+- Quedas são uma das principais causas de lesões graves em idosos. Entre **30% e 50%** das quedas resultam em alguma lesão, e **10% podem causar traumas graves**, como fraturas ou ferimentos na cabeça.  
+  [Fonte](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7093636/)
+- No Brasil, **25% dos idosos urbanos sofrem quedas**.  
+  [Fonte](https://www.gov.br/saude/pt-br)
+- **62,7% dos idosos** já sofreram pelo menos uma queda.  
+  [Fonte](https://saude.abril.com.br/medicina/estudo-brasileiro-faz-alerta-sobre-os-perigos-de-quedas-em-idosos/)
+- Mais de **60% das quedas com lesão acontecem dentro de casa**, reforçando a importância do monitoramento noturno.  
+  [Fonte](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699056/)
 
----
-
-## Contribuição e uso
-
-O SenseGuard pode ser usado por:
-
-- Famílias que cuidam de idosos em casa e querem aumentar a segurança noturna.  
-- Instituições de longa permanência que buscam uma solução simples de monitoramento.  
-- Pesquisadores e desenvolvedores interessados em sistemas de saúde digital, IoT assistivo e cuidados com idosos.
-
-Possíveis expansões do projeto:
-
-- Registro de histórico de movimento (logs de atividade).  
-- Notificações mais sofisticadas (via app dedicado).  
-- Integração com sistemas de alarme ou assistentes virtuais.
+**Estimativa de redução de acidentes:** a instalação do SenseGuard pode reduzir quedas noturnas em **10-20%**, diminuindo fraturas, hospitalizações e melhorando a qualidade de vida dos idosos.
 
 ---
 
-**Entre em contato:**  
-Se você quiser contribuir ou testar o projeto, pode abrir issues ou pull requests no GitHub.
+## 💡 Diferenciais
+
+- **Não invasivo**: sem câmeras ou sensores no corpo.  
+- **Autonomia preservada**: idosos mantêm independência e privacidade.  
+- **Sinalização simples**: LEDs ligados conforme movimento.  
+- **Monitoramento via BLE**: alertas em tempo real no smartphone (ex: LightBlue).  
+- **Baixo custo e fácil implementação**: baseado em ESP32, sensores PIR e LEDs comuns.
+
+---
+
+## ⚙️ Como usar
+
+1. Conecte os sensores PIR e LEDs ao ESP32 seguindo o esquema do projeto.  
+2. Faça upload do firmware do SenseGuard para o ESP32.  
+3. Abra um app BLE (ex: LightBlue) no smartphone e conecte ao dispositivo.  
+4. Monitore os movimentos em tempo real via notificações BLE.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,cpp,ble,esp32,github">
+</p>
+
+---
+
+## 🤝 Contribuição
+
+O SenseGuard é **open-source**. Contribuições são bem-vindas: sugestões, melhorias de código, documentação ou novos recursos.  
+Abra issues ou pull requests diretamente no repositório.
+
+---
+
+<p align="center">
+  <a href="https://github.com/seu-usuario/SenseGuard"><img src="https://custom-icon-badges.demolab.com/badge/GitHub-000000?logo=github&logoColor=white"></a>
+</p>
+
+<h4 align="center">
+  Obrigado por visitar! Esperamos que este projeto ajude a tornar o monitoramento de idosos mais seguro e discreto.
+</h4>
+
+![](https://komarev.com/ghpvc/?username=seu-usuario&color=4B0082)
