@@ -1,9 +1,5 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7FE0F2,100:F4C2C9&height=280&section=header&text=SenseGuard&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=1F2A36&desc=Seu%20caminho,%20nossa%20proteção&descAlignY=55&descSize=25&descAlign=50"/>
-</div>
-
-<div align="center">
-  <img src="./progCircuito/SenseGuardLogo.png" alt="SenseGuard Logo" width="200"/>
   
   <br><br>
 
